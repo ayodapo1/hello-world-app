@@ -1,1 +1,6 @@
 git lfs track "*.psd"
+# Ignore terraform local state and providers
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
