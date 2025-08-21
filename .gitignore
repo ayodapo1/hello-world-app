@@ -1,2 +1,1 @@
-.terraform\
-C:\projects\hello-world-app\infrastructure\.terraform
+git lfs track "*.psd"
