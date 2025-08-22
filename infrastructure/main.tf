@@ -67,14 +67,14 @@ resource "aws_route_table_association" "public" {
 }
 
 # ECR Repository
-/* resource "aws_ecr_repository" "hello_world" {
+ resource "aws_ecr_repository" "hello_world" {
   name                 = "hello-world-app"
   image_tag_mutability = "MUTABLE"
 
   image_scanning_configuration {
     scan_on_push = true
   }
-} */
+} 
 
 # ECS Cluster
 resource "aws_ecs_cluster" "hello_world" {
